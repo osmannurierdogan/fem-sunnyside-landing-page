@@ -1,0 +1,17 @@
+.header__navigation {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+    &__item {
+      &__link {
+        &:visited,
+        &:link {
+          color: $color-neutral-white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+$font-family-body: "Barlow", sans-serif;
+$font-family-heading: "Fraunces", serif;
+
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+$font-size: 1.8rem;
+
+// $mobile-breakpoint: 24em;
+// $desktop-breakpoint: 90em;
+
+$color-primary-soft-red: hsl(7, 99%, 70%);
+$color-primary-yellow: hsl(51, 100%, 49%);
+// (graphic design text)
+$color-primary-dark-desaturated-cyan: hsl(167, 40%, 24%);
+$color-primary-dark-blue: hsl(198, 62%, 26%); //(photography text)
+$color-primary-dark-moderate-cyan: hsl(168, 34%, 41%); // footer
+
+$color-neutral-very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$color-neutral-very-dark-grayish-blue: hsl(213, 9%, 39%);
+$color-neutral-dark-grayish-blue: hsl(232, 10%, 55%);
+$color-neutral-grayish-blue: hsl(210, 4%, 67%);
+$color-neutral-white: hsl(0, 0%, 100%);
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+}

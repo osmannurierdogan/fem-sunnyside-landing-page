@@ -1,0 +1,10 @@
+.section {
+  &-header {
+    background-image: url(../images/desktop/image-header.jpg);
+    // background-position: center center;
+    background-position: center;
+    object-fit: cover;
+
+    padding: 1rem;
+  }
+}
